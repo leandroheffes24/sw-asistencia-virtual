@@ -17,5 +17,5 @@ app.use(express.static("public"))
 app.use(mainRouter)
 
 // -------------------- SERVER --------------------
-const PORT = 3003
+const PORT = 3005
 app.listen(PORT, () => console.log(`running server on port ${PORT}`))
