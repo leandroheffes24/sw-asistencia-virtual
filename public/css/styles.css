@@ -16,6 +16,7 @@ h1{
     text-align: center;
     font-size: 1.7rem;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 
 h2{
@@ -72,7 +73,6 @@ header{
 }
 
 .tareasContainer{
-    /* border: 1px solid red; */
     text-align: center;
     margin: 40px 0;
     color: rgb(99, 99, 99);
@@ -86,4 +86,36 @@ header{
 .tareasIcon{
     color: #74cffa;
     font-size: 4rem;
+}
+
+/* -------- SOBRE MI SECTION -------- */
+
+.sobreMiSection{
+    margin: 40px 0;
+    padding: 40px 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.sobreMiImagen{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.infoSobreMiContainer{
+    margin: 20px 0;
+}
+
+.sobreMiButtonContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.sobreMiButton{
+    border: 2px solid #B954C9;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    color: rgb(99, 99, 99);
 }
