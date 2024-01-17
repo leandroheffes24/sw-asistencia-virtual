@@ -15,6 +15,17 @@ h1{
     color: #74cffa;
     text-align: center;
     font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1.2rem;
+    color: black;
+    margin: 8px 0;
+}
+
+p{
+    color: rgb(99, 99, 99);
 }
 
 /* -------------------- HEADER -------------------- */
@@ -53,4 +64,26 @@ header{
 
 .tareasSection{
     margin: 40px 0;
+    padding: 0 20px;
+}
+
+.infoTareasContainer p{
+    line-height: 2rem;
+}
+
+.tareasContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(99, 99, 99);
+}
+
+.tareasContainer ul{
+    padding: 0;
+    list-style: none;
+}
+
+.tareasIcon{
+    color: #74cffa;
+    font-size: 4rem;
 }
