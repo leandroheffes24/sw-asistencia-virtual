@@ -187,7 +187,7 @@ header{
 /* -------- CONTACTO SECTION -------- */
 
 .contactoSection{
-    margin: 40px 0;
+    margin-top: 40px;
     padding: 40px 20px;
     background-color: rgb(245, 245, 245);
 }
@@ -199,4 +199,45 @@ header{
     background-color: white;
     width: 100%;
     margin-top: 15px;
+}
+
+/* -------------------- FOOTER -------------------- */
+
+footer{
+    border-top: 2px solid #B954C9;
+    padding: 40px 10px 10px;
+}
+
+.footerSection{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footerTitleSection{
+    color: #B954C9;
+}
+
+.footerList{
+    list-style: none;
+    padding: 0;
+}
+
+.footerList a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+.footerIcon{
+    color: #B954C9;
+    font-size: 1.3rem;
+}
+
+.copyrightSection{
+    text-align: center;
+}
+
+.copyrightSection a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
 }
