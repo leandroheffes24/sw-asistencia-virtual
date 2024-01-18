@@ -43,6 +43,14 @@ textarea{
     padding: 10px;
 }
 
+.display-block{
+    display: block !important;
+}
+
+.display-none{
+    display: none !important;
+}
+
 /* -------------------- HEADER -------------------- */
 
 header{
@@ -51,8 +59,13 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 2px solid #B954C9;
-    box-shadow: 10px 10px 10px;
     z-index: 10;
+    background-color: white;
+}
+
+.sticky{
+    position: sticky !important;
+    top: 0 !important;
 }
 
 .headerLogo{
@@ -128,7 +141,6 @@ header{
 /* -------- SOBRE MI SECTION -------- */
 
 .sobreMiSection{
-    margin: 40px 0;
     padding: 40px 20px;
     background-color: rgb(245, 245, 245);
 }
@@ -162,7 +174,6 @@ header{
 /* -------- EXPERIENCIA Y CLIENTES SECTION -------- */
 
 .experienciaYClientesSection{
-    margin: 40px 0;
     padding: 40px 20px;
 }
 
@@ -209,7 +220,6 @@ header{
 /* -------- CONTACTO SECTION -------- */
 
 .contactoSection{
-    margin-top: 40px;
     padding: 40px 20px;
     background-color: rgb(245, 245, 245);
 }
@@ -262,4 +272,46 @@ footer{
     text-decoration: none;
     color: black;
     font-weight: 800;
+}
+
+/* -------------------- MENU BARS -------------------- */
+
+.menuBarsInterface{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: #74cffacb;
+    display: none;
+    z-index: 100;
+    backdrop-filter: blur(6px);
+    padding: 30px 0;
+}
+
+.closeMenuBarsButtonContainer{
+    text-align: right;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.headerCloseBarsMenuButton{
+    background: none;
+    border: none;
+}
+
+.fa-right-from-bracket{
+    color: white;
+    font-size: 2.8rem;
+}
+
+.navbarLink{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
