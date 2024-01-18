@@ -61,11 +61,8 @@ header{
     border-bottom: 2px solid #B954C9;
     z-index: 10;
     background-color: white;
-}
-
-.sticky{
-    position: sticky !important;
-    top: 0 !important;
+    position: sticky;
+    top: 0;
 }
 
 .headerLogo{
