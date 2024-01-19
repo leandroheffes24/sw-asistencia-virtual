@@ -63,6 +63,7 @@ header{
     background-color: white;
     position: sticky;
     top: 0;
+    transition: all 0.6s;
 }
 
 .headerLogo{
@@ -284,6 +285,10 @@ footer{
     z-index: 100;
     backdrop-filter: blur(6px);
     padding: 30px 0;
+}
+
+.menuBarsInterface.display-none{
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 .closeMenuBarsButtonContainer{
