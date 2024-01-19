@@ -108,6 +108,7 @@ header{
     left: 5%;
     font-size: 2.5rem;
     text-align: left;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 /* -------- TAREAS SECTION -------- */
@@ -287,10 +288,6 @@ footer{
     padding: 30px 0;
 }
 
-.menuBarsInterface.display-none{
-    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
-}
-
 .closeMenuBarsButtonContainer{
     text-align: right;
     padding: 10px;
@@ -316,4 +313,15 @@ footer{
     margin: 20px 0;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+/* -------------------- KEYFRAMES -------------------- */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
