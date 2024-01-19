@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(){
     if(ubicacionPrincipal>= ubicacionActual){
         header.style.top = "0px"
     } else {
-        header.style.top = "-135px"
+        header.style.top = "-150px"
     }
 
     ubicacionPrincipal = ubicacionActual

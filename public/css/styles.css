@@ -51,6 +51,10 @@ textarea{
     display: none !important;
 }
 
+hr{
+    width: 100%;
+}
+
 /* -------------------- HEADER -------------------- */
 
 header{
@@ -289,7 +293,6 @@ footer{
 }
 
 .closeMenuBarsButtonContainer{
-    text-align: right;
     padding: 10px;
     margin: 50px auto;
     text-align: center;
@@ -313,6 +316,223 @@ footer{
     margin: 20px 0;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+@media (width >= 768px){
+    /* GENERAL */
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+input{
+    padding: 15px;
+}
+
+textarea{
+    padding: 15px;
+}
+
+    /* HEADER */
+
+header{
+    border-bottom: 4px solid #B954C9;
+}
+
+.headerLogo{
+    width: 70%;
+}
+
+.headerBarsMenuButton{
+    font-size: 3rem;
+}
+
+    /* MAIN */
+
+.homeLink{
+    padding: 10px 90px;
+    font-size: 1.2rem;
+}
+
+.homeTitle{
+    font-size: 3.5rem;
+}
+
+/* TAREAS SECTION */
+
+.tareasSection{
+    padding: 40px 40px 0;
+}
+
+.infoTareasContainer p{
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+}
+
+.tareasIcon{
+    font-size: 5rem;
+}
+
+.tareasItem{
+    font-size: 1.2rem;
+}
+
+/* SOBRE MI SECTION */
+
+.sobreMiSection{
+    padding: 40px 40px;
+}
+
+.sobreMiSection h1{
+    margin-bottom: 40px;
+}
+
+.sobreMiImagen{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border: 2px solid #B954C9;
+}
+
+.infoSobreMiContainer{
+    margin: 40px 0;
+    font-size: 1.2rem;
+}
+
+.sobreMiButton{
+    padding: 15px;
+    margin-top: 0;
+}
+
+/* EXPERIENCIA Y CLIENTES SECTION */
+
+.experienciaYClientesSection{
+    padding: 40px 40px;
+}
+
+.clientesContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoClientesContainer{
+    width: 50%;
+}
+
+.infoClientesContainer h2{
+    font-size: 1.8rem;
+    margin: 30px 0;
+}
+
+.empresasYClientesLista li{
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.imagenClientesContainer{
+    width: 50%;
+}
+
+.imagenClientes{
+    margin: 40px 0;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #B954C9;
+    box-shadow: 0px 0px 10px;
+}
+
+.numerosExperienciaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 0 30px;
+}
+
+.infoNumerosExperienciaContainer{
+    width: 25%;
+}
+
+.infoNumerosExperienciaContainer h3{
+    font-size: 3.4rem;
+}
+
+.infoNumerosExperienciaContainer p{
+    font-size: 1.1rem;
+}
+
+/* CONTACTO SECTION */
+
+.contactoSection{
+    padding: 40px 40px;
+}
+
+.submitButton{
+    padding: 15px;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 4px solid #B954C9;
+    padding: 40px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerSection{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.footerTitleSection{
+    font-size: 1.6rem;
+}
+
+.footerList li{
+    margin: 10px 0;
+}
+
+.footerList li p{
+    font-size: 1.1rem;
+}
+
+.footerList a{
+    font-size: 1.1rem;
+}
+
+.footerIcon{
+    font-size: 1.6rem;
+}
+
+.copyrightSection{
+    width: 100%;
+}
+
+.copyrightSection p{
+    font-size: 1.1rem;
+}
+
+/* -------------------- MENU BARS -------------------- */
+
+.menuBarsInterface{
+    padding: 50px 0;
+}
+
+.fa-right-from-bracket{
+    font-size: 3rem;
+}
+
+.navbarLink{
+    font-size: 2rem;
+}
 }
 
 /* -------------------- KEYFRAMES -------------------- */
