@@ -161,7 +161,7 @@ header{
 }
 
 .infoSobreMiContainer{
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .sobreMiButtonContainer{
@@ -238,6 +238,12 @@ header{
     background-color: white;
     width: 100%;
     margin-top: 15px;
+    transition: all 1s;
+}
+
+.submitButton:hover{
+    background-color: rgb(235, 235, 235);
+    transition: all 1s;
 }
 
 /* -------------------- FOOTER -------------------- */
@@ -408,7 +414,7 @@ header{
 }
 
 .infoSobreMiContainer{
-    margin: 40px 0;
+    margin: 40px 0 0;
     font-size: 1.2rem;
 }
 
