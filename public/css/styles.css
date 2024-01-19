@@ -81,6 +81,10 @@ header{
     color: #B954C9;
 }
 
+.headerNavbar{
+    display: none;
+}
+
 /* -------------------- MAIN -------------------- */
 
 .carouselHomeImage{
@@ -320,6 +324,8 @@ footer{
 
 /* -------------------- MEDIA QUERIES -------------------- */
 
+/* -------------------- TABLET -------------------- */
+
 @media (width >= 768px){
     /* GENERAL */
 
@@ -474,6 +480,10 @@ header{
     padding: 40px 40px;
 }
 
+.contactoSection p{
+    font-size: 1.3rem;
+}
+
 .submitButton{
     padding: 15px;
 }
@@ -520,7 +530,7 @@ footer{
     font-size: 1.1rem;
 }
 
-/* -------------------- MENU BARS -------------------- */
+/* MENU BARS */
 
 .menuBarsInterface{
     padding: 50px 0;
@@ -532,6 +542,218 @@ footer{
 
 .navbarLink{
     font-size: 2rem;
+}
+}
+
+/* -------------------- 992 PX -------------------- */
+
+@media (width >= 992px){
+    /* GENERAL */
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 1.7rem;
+}
+
+input{
+    padding: 20px;
+}
+
+textarea{
+    padding: 20px;
+}
+
+    /* HEADER */
+
+header{
+    border-bottom: 6px solid #B954C9;
+    display: flex;
+}
+
+.headerLogo{
+    width: 30%;
+}
+
+.headerBarsMenuButton{
+    display: none;
+}
+
+.headerNavbar{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+.headerNavbarLink{
+    text-decoration: none;
+    color: #B954C9;
+    font-size: 1.2rem;
+}
+
+    /* MAIN */
+
+.homeLink{
+    font-size: 1.4rem;
+}
+
+.homeTitle{
+    font-size: 4.2rem;
+}
+
+/* TAREAS SECTION */
+
+.tareasSection{
+    padding: 60px 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.tareasSection h1{
+    width: 100%;
+}
+
+.infoTareasContainer p{
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.tareasContainer{
+    width: 300px;
+    margin: 40px 40px;
+}
+
+.tareasItem{
+    font-size: 1.3rem;
+}
+
+/* SOBRE MI SECTION */
+
+.sobreMiSection{
+    padding: 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sobreMiSection h1{
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.sobreMiImagenContainer{
+    width: 47%;
+}
+
+.sobreMiImagen{
+    border: 4px solid #B954C9;
+}
+
+.infoSobreMiContainer{
+    width: 47%;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.sobreMiButton{
+    margin-top: 40px;
+}
+
+/* EXPERIENCIA Y CLIENTES SECTION */
+
+.experienciaYClientesSection{
+    padding: 60px 60px;
+}
+
+.clientesContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoClientesContainer{
+    width: 50%;
+}
+
+.infoClientesContainer h2{
+    font-size: 2.2rem;
+}
+
+.empresasYClientesLista li{
+    font-size: 1.5rem;
+}
+
+.infoNumerosExperienciaContainer h3{
+    font-size: 3.7rem;
+}
+
+.infoNumerosExperienciaContainer p{
+    font-size: 1.2rem;
+}
+
+/* CONTACTO SECTION */
+
+.contactoSection{
+    padding: 60px 60px;
+}
+
+.contactoSection p{
+    font-size: 1.5rem;
+}
+
+.contactoForm{
+    width: 70%;
+    margin: auto;
+}
+
+.submitButton{
+    padding: 15px;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 4px solid #B954C9;
+    padding: 40px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerSection{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.footerTitleSection{
+    font-size: 1.6rem;
+}
+
+.footerList li{
+    margin: 10px 0;
+}
+
+.footerList li p{
+    font-size: 1.1rem;
+}
+
+.footerList a{
+    font-size: 1.1rem;
+}
+
+.footerIcon{
+    font-size: 1.6rem;
+}
+
+.copyrightSection{
+    width: 100%;
+}
+
+.copyrightSection p{
+    font-size: 1rem;
 }
 }
 

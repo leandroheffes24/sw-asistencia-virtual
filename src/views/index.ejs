@@ -6,10 +6,14 @@
 <body>
     <!-- ********************** HEADER ********************** -->
     <header>
-        <h1>LOGO</h1>
+        <div class="headerLogo">
+            <h1>LOGO</h1>
+        </div>
         <button class="headerBarsMenuButton">
             <i class="fa-solid fa-bars"></i>
         </button>
+
+        <%- include("partials/navbar") %>
     </header>
     <!-- ********************** END HEADER ********************** -->
 
@@ -163,7 +167,7 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae quo iusto pariatur dolor dolorum sequi, itaque placeat dolores aut cumque laborum qui consequuntur sit, nisi numquam cupiditate harum facilis.</p>
 
-            <form action="">
+            <form class="contactoForm" action="">
                 <label for="nombre"></label>
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" minlength="3" maxlength="30">
 
