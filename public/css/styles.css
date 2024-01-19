@@ -757,6 +757,164 @@ footer{
 }
 }
 
+/* -------------------- DESKTOP -------------------- */
+
+@media (width >= 1200px){
+    /* GENERAL */
+
+h1{
+    font-size: 2.2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+input{
+    padding: 5px;
+}
+
+textarea{
+    padding: 5px;
+}
+
+    /* HEADER */
+
+    header{
+        padding: 0;
+    }
+
+.headerNavbarLink{
+    font-size: 1rem;
+}
+
+    /* MAIN */
+
+.homeLink{
+    font-size: 1rem;
+}
+
+.homeTitle{
+    font-size: 3rem;
+}
+
+/* TAREAS SECTION */
+
+.infoTareasContainer p{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.tareasContainer{
+    width: 300px;
+    margin: 40px 40px;
+}
+
+.tareasIcon{
+    font-size: 3rem;
+}
+
+.tareasItem{
+    font-size: 1rem;
+}
+
+/* SOBRE MI SECTION */
+
+.sobreMiImagenContainer{
+    width: 35%;
+}
+
+.sobreMiImagen{
+    border: 2px solid #B954C9;
+}
+
+.infoSobreMiContainer{
+    width: 65%;
+    padding: 0 0 0 50px;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/* EXPERIENCIA Y CLIENTES SECTION */
+
+.infoClientesContainer h2{
+    font-size: 2rem;
+}
+
+.infoNumerosExperienciaContainer h3{
+    font-size: 3.5rem;
+}
+
+.infoNumerosExperienciaContainer p{
+    font-size: 1rem;
+}
+
+.numerosExperienciaContainer{
+    margin: 0;
+}
+
+/* CONTACTO SECTION */
+
+.contactoSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactoSection h1{
+    width: 100%;
+}
+
+.contactoSection p{
+    font-size: 1rem;
+    width: 50%;
+    padding: 0 50px;
+}
+
+.contactoForm{
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.submitButton{
+    padding: 5px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 20px 30px 5px;
+}
+
+.footerSection{
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.footerTitleSection{
+    font-size: 1.2rem;
+}
+
+.footerList li{
+    margin: 10px 0;
+}
+
+.footerList li p{
+    font-size: 0.8rem;
+}
+
+.footerList a{
+    font-size: 0.8rem;
+}
+
+.footerIcon{
+    font-size: 1.3rem;
+}
+
+.copyrightSection p{
+    font-size: 0.8rem;
+}
+}
+
 /* -------------------- KEYFRAMES -------------------- */
 
 @keyframes fadeIn {
