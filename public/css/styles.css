@@ -74,11 +74,17 @@ header{
     width: 70%;
 }
 
+.logo{
+    width: 50%;
+}
+
 .headerBarsMenuButton{
     background: none;
     border: none;
     font-size: 2.6rem;
     color: #B954C9;
+    width: 30%;
+    text-align: right;
 }
 
 .headerNavbar{
@@ -167,6 +173,7 @@ header{
 .sobreMiButtonContainer{
     width: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .sobreMiButton{
@@ -176,6 +183,7 @@ header{
     background-color: white;
     margin-top: 10px;
     color: rgb(99, 99, 99);
+    text-decoration: none;
 }
 
 /* -------- EXPERIENCIA Y CLIENTES SECTION -------- */
@@ -360,6 +368,10 @@ header{
 
 .headerLogo{
     width: 70%;
+}
+
+.logo{
+    width: 25%;
 }
 
 .headerBarsMenuButton{
@@ -577,10 +589,16 @@ textarea{
 header{
     border-bottom: 6px solid #B954C9;
     display: flex;
+    padding: 0;
 }
 
 .headerLogo{
     width: 30%;
+}
+
+.logo{
+    width: 45%;
+    padding: 20px;
 }
 
 .headerBarsMenuButton{
@@ -666,8 +684,10 @@ header{
     font-size: 1.5rem;
 }
 
-.sobreMiButton{
-    margin-top: 40px;
+.sobreMiButtonContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* EXPERIENCIA Y CLIENTES SECTION */
@@ -788,6 +808,11 @@ textarea{
 
     header{
         padding: 0;
+    }
+
+    .logo{
+        width: 30%;
+        padding: 10px;
     }
 
 .headerNavbarLink{

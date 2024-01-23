@@ -7,7 +7,7 @@
     <!-- ********************** HEADER ********************** -->
     <header>
         <div class="headerLogo">
-            <h1>LOGO</h1>
+            <img class="logo" src="/img/logo.png" alt="">
         </div>
         <button class="headerBarsMenuButton">
             <i class="fa-solid fa-bars"></i>
@@ -113,9 +113,9 @@
                 Quia quis temporibus repudiandae beatae perferendis cum ullam. Similique delectus tempore nesciunt voluptatem aliquam, officia fugiat nulla! Aspernatur commodi nemo quam facilis. Unde, beatae incidunt? Asperiores id quibusdam minima voluptates.</p>
 
                 <div class="sobreMiButtonContainer">
-                    <button class="sobreMiButton">
+                    <a href="/pdf/cv.pdf" download="cv.pdf" class="sobreMiButton">
                         Descarga mi CV!
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -167,15 +167,15 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae quo iusto pariatur dolor dolorum sequi, itaque placeat dolores aut cumque laborum qui consequuntur sit, nisi numquam cupiditate harum facilis.</p>
 
-            <form class="contactoForm" action="">
+            <form class="contactoForm" action="https://formspree.io/f/mvoezkkl" method="post">
                 <label for="nombre"></label>
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" minlength="3" maxlength="30">
 
                 <label for="email"></label>
                 <input type="email" name="email" id="email" placeholder="Email" minlength="7" maxlength="60">
 
-                <label for="mensaje"></label>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="300" placeholder="Escribe tu mensaje"></textarea>
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="10" maxlength="300" placeholder="Escribe tu mensaje"></textarea>
 
                 <button class="submitButton" type="submit">Enviar</button>
             </form>
