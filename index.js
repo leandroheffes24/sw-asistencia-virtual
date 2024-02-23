@@ -1,17 +1,17 @@
 // -------------------- REQUIREMENTS --------------------
 const express = require("express")
-const mainRouter = require("./routers/mainRouter")
+const mainRouter = require("./src/routers/mainRouter")
 
 // -------------------- APP --------------------
 const app = express()
 
 // -------------------- SETTINGS --------------------
 app.set("view engine", "ejs")
-app.set("views", "./src/views")
+app.set("views", __dirname + "/src/views")
 
 // -------------------- USES --------------------
 
-app.use(express.static("public"))
+app.use(express.static(__dirname + "/public"))
 
 // -------------------- ROUTERS --------------------
 app.use(mainRouter)
