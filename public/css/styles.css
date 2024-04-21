@@ -98,13 +98,25 @@ header{
 
 /* -------------------- MAIN -------------------- */
 
+.homeSection{
+    height: 80vh;
+}
+
+#carouselExampleAutoplaying{
+    height: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
 .carouselHomeImage{
     height: 100%;
     object-fit: cover;
 }
 
 .carousel-item{
-    height: 70vh;
+    height: 100%;
 }
 
 .homeLink{
@@ -125,7 +137,7 @@ header{
     position: absolute;
     top: 60%;
     left: 5%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: left;
     animation: fadeIn 1.5s ease-in-out forwards;
 }
@@ -383,12 +395,12 @@ header{
     /* MAIN */
 
 .homeLink{
-    padding: 10px 90px;
-    font-size: 1.2rem;
+    padding: 10px 110px;
+    font-size: 1.4rem;
 }
 
 .homeTitle{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* TAREAS SECTION */
@@ -625,12 +637,16 @@ header{
 
     /* MAIN */
 
+.homeSection{
+    height: 70vh;
+}
+
 .homeLink{
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .homeTitle{
-    font-size: 4.2rem;
+    font-size: 2.5rem;
 }
 
 /* TAREAS SECTION */
