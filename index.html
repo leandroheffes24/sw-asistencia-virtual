@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SW Asistencia Virtual</title>
+  <meta name="description" content="Asistente virtual con más de 15 años de experiencia. Liberate de las tareas administrativas y enfocate en hacer crecer tu negocio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="./assets/images/logo.png">
+</head>
+<body>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5491159391818?text=Hola%20Silvia%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" class="wa-float" target="_blank" title="Escribinos por WhatsApp" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">
+          <img src="./assets/images/logo.png" alt="Logo SW Asistencia Virtual" class="nav-logo-img">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#diferenciadores">¿Por qué SW Asistencia Virtual?</a></li>
+          <li><a href="#empresas">Trayectoria</a></li>
+          <li><a href="#proceso">Cómo funciona</a></li>
+        </ul>
+        <a href="#contacto" class="nav-cta">Solicitar servicio</a>
+        <div class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Menú">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" onclick="toggleMobile()" aria-label="Cerrar menú">✕</button>
+    <a href="#servicios" onclick="toggleMobile()">Servicios</a>
+    <a href="#diferenciadores" onclick="toggleMobile()">¿Por qué yo?</a>
+    <a href="#empresas" onclick="toggleMobile()">Trayectoria</a>
+    <a href="#proceso" onclick="toggleMobile()">Cómo funciona</a>
+    <a href="#contacto" onclick="toggleMobile()" class="mobile-cta">Solicitar servicio</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-decoration"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Disponible para nuevos clientes
+          </div>
+          <h1 class="hero-title">
+            Tu negocio,<br>
+            <em class="gradient-text">sin el caos</em><br>
+            administrativo
+          </h1>
+          <p class="hero-sub">
+            Delegá las tareas que te quitan tiempo y enfocate en lo que realmente hace crecer tu negocio. Con más de <strong>15 años de experiencia</strong>, en SW Asistencia Virtual me encargo de todo lo operativo.
+          </p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn-primary">
+              Quiero liberar mi tiempo
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#servicios" class="btn-ghost">
+              Ver servicios
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="card-top-bar"></div>
+            <div class="profile-area">
+              <div class="profile-avatar">SW</div>
+              <div class="profile-info">
+                <h3>Silvia Waimann</h3>
+                <p><span class="online-dot"></span>Asistente Virtual · Activa ahora</p>
+              </div>
+            </div>
+            <div class="task-list">
+              <div class="task-item">
+                <div class="task-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span>Conciliación bancaria completada</span>
+              </div>
+              <div class="task-item">
+                <div class="task-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span>Reclamos de cobranzas gestionados</span>
+              </div>
+              <div class="task-item">
+                <div class="task-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span>Informe mensual enviado al cliente</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-stat stat-left">
+            <div class="stat-num">15+</div>
+            <div class="stat-lbl">Años de experiencia</div>
+          </div>
+          <div class="floating-stat stat-right">
+            <div class="stat-num">7</div>
+            <div class="stat-lbl">Empresas de referencia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-block reveal">
+          <div class="stat-block-num">15+</div>
+          <div class="stat-block-label">Años de experiencia remota</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stat-block reveal reveal-delay-1">
+          <div class="stat-block-num">7</div>
+          <div class="stat-block-label">Empresas de referencia</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stat-block reveal reveal-delay-2">
+          <div class="stat-block-num">3</div>
+          <div class="stat-block-label">Áreas de especialización</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stat-block reveal reveal-delay-3">
+          <div class="stat-block-num">100%</div>
+          <div class="stat-block-label">Trabajo remoto y flexible</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section id="problema">
+    <div class="container">
+      <div class="problema-grid">
+        <div class="problema-left">
+          <span class="section-tag reveal">El problema real</span>
+          <h2 class="section-title reveal">¿Te suena<br>familiar?</h2>
+          <div class="pain-list">
+            <div class="pain-item reveal">
+              <div class="pain-icon">⏰</div>
+              <div class="pain-text">
+                <h4>El tiempo se va en tareas que no hacen crecer tu negocio</h4>
+                <p>Pasás horas respondiendo mails, gestionando pagos y actualizando datos en vez de enfocarte en lo que realmente importa.</p>
+              </div>
+            </div>
+            <div class="pain-item reveal reveal-delay-1">
+              <div class="pain-icon">💸</div>
+              <div class="pain-text">
+                <h4>Errores administrativos que cuestan dinero</h4>
+                <p>Una conciliación mal hecha, una cobranza que no se siguió a tiempo o un recibo incorrecto pueden generar pérdidas reales.</p>
+              </div>
+            </div>
+            <div class="pain-item reveal reveal-delay-2">
+              <div class="pain-icon">🔥</div>
+              <div class="pain-text">
+                <h4>El caos operativo te agota y te frena</h4>
+                <p>Cuando todo parece urgente, no podés pensar con claridad ni tomar decisiones estratégicas. El negocio se estanca.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="problema-right reveal">
+          <div class="solution-box">
+            <div class="solution-icon">✨</div>
+            <h3>La solución que necesitás existe</h3>
+            <p>Una asistente virtual experimentada que ya conoce los procesos, no necesita supervisión constante y entrega resultados desde el primer día.</p>
+            <ul class="solution-benefits">
+              <li><span class="benefit-dot"></span>Tu tiempo libre para lo que importa</li>
+              <li><span class="benefit-dot"></span>Operaciones bajo control y sin errores</li>
+              <li><span class="benefit-dot"></span>Comunicación clara y reportes precisos</li>
+              <li><span class="benefit-dot"></span>Flexibilidad para adaptarse a tu empresa</li>
+              <li><span class="benefit-dot"></span>Confidencialidad y compromiso total</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-tag reveal">Servicios</span>
+        <h2 class="section-title reveal">Todo lo operativo,<br>resuelto</h2>
+        <p class="section-sub reveal">Cobertura completa de cada aspecto administrativo de tu negocio para que nada se pierda y todo funcione con precisión.</p>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-card reveal">
+          <div class="servicio-icon-wrap icon-celeste">📋</div>
+          <h3>Gestión General</h3>
+          <p>Atención completa de clientes y proveedores, gestión de comunicaciones y organización de la información de tu empresa.</p>
+          <ul class="servicio-lista">
+            <li>Atención al cliente y proveedores</li>
+            <li>Contacto por mail y teléfono</li>
+            <li>Gestión de redes sociales</li>
+            <li>Data entry y procesamiento de datos</li>
+            <li>Generación de informes</li>
+          </ul>
+        </div>
+        <div class="servicio-card servicio-featured reveal reveal-delay-1">
+          <div class="featured-badge">Más solicitado</div>
+          <div class="servicio-icon-wrap icon-violeta">💰</div>
+          <h3>Cobranzas</h3>
+          <p>Seguimiento activo de pagos pendientes, coordinación de cobradores y emisión y envío de comprobantes con total precisión.</p>
+          <ul class="servicio-lista">
+            <li>Reclamos de deuda</li>
+            <li>Coordinación de cobradores</li>
+            <li>Verificación y emisión de recibos</li>
+            <li>Envío de comprobantes</li>
+          </ul>
+        </div>
+        <div class="servicio-card reveal reveal-delay-2">
+          <div class="servicio-icon-wrap icon-celeste">🏦</div>
+          <h3>Administración Bancaria</h3>
+          <p>Control riguroso de movimientos bancarios y conciliación para que nada te tome desprevenido.</p>
+          <ul class="servicio-lista">
+            <li>Control de débitos y créditos</li>
+            <li>Control de ingreso de cupones de tarjetas</li>
+            <li>Conciliación bancaria</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIADORES -->
+  <section id="diferenciadores">
+    <div class="container">
+      <div class="dif-layout">
+        <div class="dif-header">
+          <span class="section-tag reveal">¿Por qué yo?</span>
+          <h2 class="section-title reveal">Experiencia que se nota<br><em class="gradient-text">desde el primer día</em></h2>
+          <p class="section-sub reveal">No es una asistente más. Es una profesional que ya resolvió estos problemas en empresas reales durante más de 15 años.</p>
+          <a href="#contacto" class="btn-primary reveal" style="margin-top:32px; display:inline-flex;">
+            Trabajar con Silvia
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="dif-cards">
+          <div class="dif-card reveal">
+            <div class="dif-number">01</div>
+            <div class="dif-content">
+              <h4>15 años de experiencia comprobable</h4>
+              <p>No aprende en tu empresa. Llega con procesos probados, criterio formado y la capacidad de anticiparse a los problemas antes de que aparezcan.</p>
+            </div>
+          </div>
+          <div class="dif-card reveal reveal-delay-1">
+            <div class="dif-number">02</div>
+            <div class="dif-content">
+              <h4>Resultados concretos, no promesas</h4>
+              <p>Su trayectoria habla por sí sola. Empresas como Catrius, Ferrari Merchandising e Italia 2011 S.A. confiaron en su trabajo con resultados positivos y medibles.</p>
+            </div>
+          </div>
+          <div class="dif-card reveal reveal-delay-2">
+            <div class="dif-number">03</div>
+            <div class="dif-content">
+              <h4>100% remota y siempre disponible</h4>
+              <p>Trabajo remoto desde el inicio de su carrera. Tiene la metodología, las herramientas y la disciplina para ser tan eficiente como si estuviera in-house.</p>
+            </div>
+          </div>
+          <div class="dif-card reveal reveal-delay-3">
+            <div class="dif-number">04</div>
+            <div class="dif-content">
+              <h4>Adaptable a tu operación</h4>
+              <p>Ya sea una Pyme, un profesional independiente o una empresa en crecimiento, se adapta a tus procesos, herramientas y cultura de trabajo sin fricción.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMPRESAS -->
+  <section id="empresas">
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-tag reveal">Trayectoria</span>
+        <h2 class="section-title reveal">Empresas que ya confiaron en ella</h2>
+        <p class="section-sub reveal">Más de 15 años colaborando con organizaciones de distintos sectores con el mismo nivel de compromiso y profesionalismo.</p>
+      </div>
+      <div class="empresas-list">
+        <div class="empresa-chip reveal">Catrius</div>
+        <div class="empresa-chip reveal reveal-delay-1">Moretti Servicios S.R.L.</div>
+        <div class="empresa-chip reveal reveal-delay-2">Ferrari Merchandising</div>
+        <div class="empresa-chip reveal reveal-delay-3">Italia 2011 S.A.</div>
+        <div class="empresa-chip reveal">Arg2com S.R.L.</div>
+        <div class="empresa-chip reveal reveal-delay-1">Andrés Moretti e Hijos S.A.</div>
+        <div class="empresa-chip reveal reveal-delay-2">Gem 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section id="proceso">
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-tag reveal">Cómo funciona</span>
+        <h2 class="section-title reveal">Empezar es más fácil<br>de lo que pensás</h2>
+        <p class="section-sub reveal">En tres pasos simples, me integro a tu equipo y empezás a notar la diferencia.</p>
+      </div>
+      <div class="proceso-steps">
+        <div class="proceso-connector"></div>
+        <div class="proceso-step reveal">
+          <div class="step-num"><span>1</span></div>
+          <h3>Completás el formulario</h3>
+          <p>Contanos brevemente sobre tu negocio y qué tareas necesitás delegar. Sin compromisos ni costos iniciales.</p>
+        </div>
+        <div class="proceso-step reveal reveal-delay-1">
+          <div class="step-num"><span>2</span></div>
+          <h3>Reunión de diagnóstico</h3>
+          <p>Analizo tus necesidades, entiende tu operación y te propone un plan de trabajo personalizado.</p>
+        </div>
+        <div class="proceso-step reveal reveal-delay-2">
+          <div class="step-num"><span>3</span></div>
+          <h3>Empezamos a trabajar</h3>
+          <p>Integración rápida, procesos claros y resultados desde las primeras semanas. Tu operación, bajo control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-accent cta-accent-left"></div>
+        <div class="cta-accent cta-accent-right"></div>
+        <h2 class="reveal">¿Listo para dejar de<br><em class="gradient-text">hacer todo solo?</em></h2>
+        <p class="reveal">El primer paso es una conversación sin compromiso. Contanos qué necesitás y te mostramos cómo podemos ayudarte.</p>
+        <a href="#contacto" class="btn-primary reveal">
+          Quiero que me contacten
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contacto">
+    <div class="container">
+      <div class="section-header center">
+        <span class="section-tag reveal">Contacto</span>
+        <h2 class="section-title reveal">Comenzá hoy</h2>
+        <p class="section-sub reveal">Completá el formulario y me pondré en contacto dentro de las próximas 24 horas para agendar una reunión inicial sin costo.</p>
+      </div>
+      <div class="form-wrapper">
+        <form id="contactForm" action="https://formspree.io/f/mjgeldna" method="POST">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="nombre">Nombre completo <span class="required">*</span></label>
+              <input type="text" id="nombre" placeholder="Tu nombre completo" name="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa / Negocio</label>
+              <input type="text" id="empresa" placeholder="Nombre de tu empresa" name="empresa">
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" placeholder="tu@email.com" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="telefono">WhatsApp / Teléfono</label>
+              <input type="tel" id="telefono" placeholder="+54 9 ..." name="telefono">
+            </div>
+            <div class="form-group full">
+              <label for="servicio">¿Qué servicio te interesa? <span class="required">*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="" disabled selected>Seleccioná una opción</option>
+                <option value="general">Gestión general (atención al cliente, data entry, informes)</option>
+                <option value="cobranzas">Cobranzas (reclamos, recibos, coordinación)</option>
+                <option value="bancos">Administración bancaria (conciliación, control de movimientos)</option>
+                <option value="integral">Servicio integral (todas las áreas)</option>
+                <option value="consulta">No estoy seguro/a, quiero asesorarme</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="mensaje">Contanos sobre tu situación</label>
+              <textarea id="mensaje" placeholder="¿Cuántas horas semanales creés que necesitás apoyo? ¿Hay algo urgente que resolver? Cualquier detalle nos ayuda a prepararnos mejor para nuestra reunión..." name="mensaje"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="form-submit" onclick="submitForm()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z"/></svg>
+            Enviar y que me contacten
+          </button>
+          <p class="form-note">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            Tu información es confidencial y nunca se compartirá con terceros. Sin spam, sin compromiso.
+          </p>
+        </form>
+        <div class="success-msg" id="successMsg">
+          <div class="success-icon">🎉</div>
+          <h3>¡Mensaje enviado con éxito!</h3>
+          <p>Revisaré tu consulta y me pondré en contacto dentro de las próximas <strong>24 horas</strong> para agendar una reunión.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo">Silvia <span>Waimann</span></a>
+          <p>Asistente virtual profesional con más de 15 años de experiencia en gestión administrativa remota. Tu operación, resuelta.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navegación</h5>
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#diferenciadores">¿Por qué SW Asistencia Virtual?</a></li>
+            <li><a href="#empresas">Trayectoria</a></li>
+            <li><a href="#proceso">Cómo funciona</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Servicios</h5>
+          <ul>
+            <li><a href="#servicios">Gestión general</a></li>
+            <li><a href="#servicios">Cobranzas</a></li>
+            <li><a href="#servicios">Administración bancaria</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="#contacto">Formulario de contacto</a></li>
+            <li><a href="https://wa.me/5491159391818?text=Hola%20Silvia%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" target="_blank">WhatsApp</a></li>
+            <li><a href="#" onclick="copiarEmail(event)">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 SW Asistencia Virtual · Asistente Virtual Profesional</span>
+        <div class="footer-social">
+          <a href="#" class="social-btn" title="LinkedIn" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://wa.me/5491159391818?text=Hola%20Silvia%2C%20me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios" class="social-btn" title="WhatsApp" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
