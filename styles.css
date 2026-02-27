@@ -1229,3 +1229,12 @@ footer {
   .stat-block  { padding: 16px 12px; }
   .stat-block-num { font-size: 2rem; }
 }
+
+.footer-credit {
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-credit:hover {
+  color: var(--celeste);
+}
